@@ -1,0 +1,54 @@
+.featured-properties{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-top: 130px;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.featured-properties .title{
+  color: #0C0C0C;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.featured-properties .title .sub-title{
+  color: rgba(12, 12, 12, 0.65);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-properties .title .sub-title .options{
+  display: flex;
+  gap: 20px;
+}
+
+.featured-properties .title .sub-title .options .option{
+  color: #58595B;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.featured-properties .title .sub-title .options .option:hover{
+  color: #0C0C0C;
+  text-decoration: underline;
+}
+
+.featured-properties .title .sub-title .options .select{
+  display: flex;
+  height: 30px;
+  padding: 0px 15px;
+  align-items: center;
+  border-radius: 28px;
+  border: 1.5px solid #E6E9EE;
+}
+
+.featured-properties .properties{
+  display: flex;
+  gap: 29px;
+}

@@ -1,0 +1,117 @@
+.card{
+  display: flex;
+  padding: 15px 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+  border-radius: 17.689px;
+  border: 1.5px solid #E6E9EE;
+  cursor: pointer;
+}
+
+.card img{
+  width: 260px;
+  height: 140.625px;
+  border-radius: 10px;
+}
+
+.card .info{
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  gap: 13.267px;
+}
+
+.card .info .title{
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+
+.card .info .title .name{
+  color: #0C0C0C;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card .info .title .price{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.card .info .address{
+  display: flex;
+  align-items: center;
+}
+
+.card .info .address p{
+  color: #0C0C0C;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card .info .owner{
+  color: #0C0C0C;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card .info .owner span{
+  font-weight: 400;
+}
+
+.card .info .rooms{
+  display: flex;
+  gap: 26.534px;
+}
+
+.card .info .room{
+  display: flex;
+  align-items: center;
+  gap: 8.84px;
+}
+
+.card .info .room img{
+  width: 16px;
+  height: 16px;
+}
+
+.card .info .room p{
+  color: #0C0C0C;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card .info .options{
+  display: flex;
+  align-items: center;
+  gap: 7.96px;
+}
+
+.card .info .options .contact{
+  display: flex;
+  height: 26.534px;
+  padding: 8.845px 13.267px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.845px;
+  border-radius: 44.223px;
+  border: 1.327px solid #d8d9dc;
+}
+
+.card .info .options .sale{
+  display: flex;
+  width: 75px;
+  height: 26.534px;
+  padding: 8.845px 13.267px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.845px;
+  border-radius: 44.223px;
+  border: 0.884px solid #F5F6F8;
+  background: #F5F6F8;
+  color: #58595B;
+  font-size: 12px;
+  font-weight: 400;
+}

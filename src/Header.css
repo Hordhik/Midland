@@ -1,0 +1,80 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  align-items: center;
+}
+
+.left{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.left .logo{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.middle .options{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.middle .option{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: rgba(12, 12, 12, 0.65);
+  cursor: pointer;
+}
+
+
+.right .buttons{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.right button{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.right .SignIn{
+  background-color: transparent;
+  border: none;
+  color: #616161;
+}
+
+.SignIn:hover, .option:hover{
+  color: #0C0C0C;
+  text-decoration: underline;
+}
+
+.right .Explore{
+  height: 35px;
+  padding: 10px 25px;
+  border-radius: 60px;
+  background: #0059FF;
+  color: #FFF;
+  border: none;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.discount{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 13px 0;
+  font-size: 14px;
+  
+}
+
+.discount span{
+  text-decoration: underline;
+}
